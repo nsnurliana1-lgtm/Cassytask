@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>ClassyTask - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">ClassyTask</div>
+  <input type="text" placeholder="Search">
+</header>
+
+<main class="dashboard">
+
+  <div class="stats">
+    <div class="stat">Hari ini: <b id="todayCount">0</b></div>
+    <div class="stat">Deadline dekat: <b id="deadlineCount">0</b></div>
+    <div class="stat">Selesai: <b id="doneCount">0</b></div>
+    <a href="add-task.html" class="btn">+ Add Task</a>
+  </div>
+
+  <div id="taskList" class="task-list empty">
+    <p>Belum ada tugas.<br>Tambahkan tugas pertamamu.</p>
+    <a href="add-task.html" class="btn-outline">+ Add Task</a>
+  </div>
+
+</main>
+
+<footer>
+  © 2025 ClassyTask
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

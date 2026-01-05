@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Add New Task</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a href="index.html">← Back</a>
+  <h2>Add New Task</h2>
+</header>
+
+<main class="form-container">
+
+  <label>Task Title</label>
+  <input type="text" id="title">
+
+  <label>Deadline</label>
+  <input type="date" id="deadline">
+
+  <label>Priority</label>
+  <select id="priority">
+    <option>Low</option>
+    <option>Medium</option>
+    <option>High</option>
+  </select>
+
+  <div class="form-buttons">
+    <a href="index.html" class="btn-outline">Cancel</a>
+    <button onclick="saveTask()">Save Task</button>
+  </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
